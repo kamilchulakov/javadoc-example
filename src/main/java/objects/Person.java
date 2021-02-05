@@ -36,7 +36,7 @@ public class Person {
 
     /**
      * Set age using this!
-     * @param age
+     * @param age is the real age
      */
     public void setAge(int age) {
         this.age = age;
@@ -52,7 +52,7 @@ public class Person {
 
     /**
      * Set First Name or I will kill you!
-      * @param firstName
+      * @param firstName is the real first name
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;

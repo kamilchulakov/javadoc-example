@@ -5,7 +5,7 @@ package objects;
  */
 public interface AbleToDoGoodThings {
     /**
-     * <h1>do some abstract good things!</h1>
+     * do some abstract good things!
      */
     void doGoodThings();
 }
