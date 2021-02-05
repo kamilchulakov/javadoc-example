@@ -27,25 +27,40 @@ public class Person {
     }
 
     /**
-     *
+     * What about getting age?
      * @return the real age value
      */
     public int getAge() {
         return age;
     }
 
+    /**
+     * Set age using this!
+     * @param age
+     */
     public void setAge(int age) {
         this.age = age;
     }
 
+    /**
+     * Get the first name
+     * @return firstName
+     */
     public String getFirstName() {
         return firstName;
     }
 
+    /**
+     * Set First Name or I will kill you!
+      * @param firstName
+     */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    /**
+     * Live long life.
+      */
     public void live() {
         if (getAge() < 65) {
             setAge(getAge() + 1);
